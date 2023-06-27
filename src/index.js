@@ -3,11 +3,40 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Context from './Context/Context';
+import {createBrowserRouter,RouterProvider} from "react-router-dom" 
+import {YourPage} from "./pages/YourPage" 
+import All from './pages/All';
+import Block from './pages/Block';
+
+
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:<App/>
+  },
+  {
+    path:"/all",
+    element:<All/>
+  },
+  {
+    path:"/your",
+    element:<YourPage/>
+  },
+  {
+    path:"/block",
+    element:<Block/>
+  },
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Context>
+    <RouterProvider router= {router} />
+    </Context>
   </React.StrictMode>
 );
 
