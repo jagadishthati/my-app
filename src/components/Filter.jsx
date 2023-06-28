@@ -6,13 +6,13 @@ const Filter = () => {
     const{dispatch}=useContext(Card)
   return (
     <>
-    <div className="filters flex  gap-4">
+    <div className="filters flex  p-4 gap-4">
         <div className="filterButton">
             Filter
         </div>
         <div className="search flex">
             <span>search
-          <input type="text" name="search" id="search"  className="border" 
+          <input type="text" name="search" id="search"  className="border bg-transparent" 
  onChange={(e)=>{
      dispatch({
          type:"FILTER_BY_SEARCH",
