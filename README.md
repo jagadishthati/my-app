@@ -15,7 +15,8 @@
  -using contextapi we can store state gobal acess
  
  ## How the website looks like
-![Screenshot 2023-06-28 122232](https://github.com/jagadishthati/my-app/assets/103732075/29fc5165-76eb-4438-bf26-5de0774bb76c)
+![Screenshot 2023-06-28 125134](https://github.com/jagadishthati/my-app/assets/103732075/fa1514ac-6fdf-4218-ab4a-f2ad354825a2)
+github.com/jagadishthati/my-app/assets/103732075/29fc5165-76eb-4438-bf26-5de0774bb76c)
 
 
 
