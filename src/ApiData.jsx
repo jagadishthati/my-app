@@ -19,7 +19,7 @@ const apiData ={
  status: 'active'
  },
  {
-    name: 'Mixmax',
+    name: 'Ramesh',
     budget_name: 'Software subscription',
     owner_id: 1,
     spent: {
@@ -53,7 +53,7 @@ limit: 100,
 status: 'active'
 },
 {
-    name: 'Mixmax',
+    name: 'suresh',
     budget_name: 'Software subscription',
     owner_id: 1,
     spent: {
@@ -70,7 +70,7 @@ limit: 100,
 status: 'active'
 },
 {
-    name: 'Mixmax',
+    name: 'jagadish',
     budget_name: 'Software subscription',
     owner_id: 1,
     spent: {
